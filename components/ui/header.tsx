@@ -31,7 +31,8 @@ export default function Header() {
           <div className="shrink-0 mr-4 ">
             <div className='flex flex-row items-center'>
           <Image src={logo1} width={35} height={30} alt={''} className=' mr-[2em]'/> 
-          <p className="text-[17px]  font-extrabold leading-tighter tracking-tighter mb-[-.101em]" data-aos="zoom-y-out">Panther Protocol Foundation</p>
+          <p className="text-[17px] nonMobile font-extrabold leading-tighter tracking-tighter mb-[-.101em]" data-aos="zoom-y-out">Panther Protocol Foundation</p>
+          <p className="text-[11px] mobile font-extrabold leading-tighter tracking-tighter mb-[-.101em]" data-aos="zoom-y-out">Panther Protocol Foundation</p>
           </div>
           </div>
 
@@ -40,16 +41,16 @@ export default function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
             <li>
-                <Link href="/" className="font-bold text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center text-[13px] transition duration-150 ease-in-out">Developers</Link>
+            <Link href="https://github.com/pantherfoundation" className="font-bold text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center text-[13px] transition duration-150 ease-in-out">Developers</Link>
               </li>
               <li>
-                <Link href="https://snapshot.org/#/pantherprotocol.eth" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center text-[13px] transition duration-150 ease-in-out">Governance</Link>
+              <Link href="https://snapshot.org/#/pantherprotocol.eth" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center text-[13px] transition duration-150 ease-in-out">Governance</Link>
               </li>
               <li>
                 <Link href="/" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center text-[13px] transition duration-150 ease-in-out">Resources</Link>
               </li>
               <li>
-                <Link href="/" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center text-[13px] transition duration-150 ease-in-out">Contact Form</Link>
+              <Link href="https://docs.google.com/forms/d/1b5RPrKte7gtqqvKtA04twjfj3pFVrQCS-xTKjW9la_w/edit" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center text-[13px] transition duration-150 ease-in-out">Contact Form</Link>
               </li>
               <li>
            

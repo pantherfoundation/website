@@ -55,7 +55,7 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center mt-[-.81em] pb-12 md:pb-16 mobile">
-            <h1 className="text-[38px] md:text-[60px] font-extrabold leading-tighter tracking-tighter mb-[-.101em]" data-aos="zoom-y-out">Panther </h1>
+            <h1 className="text-[38px] md:text-[60px] font-extrabold leading-tighter tracking-tighter mb-[-.101em]" data-aos="zoom-y-out">Panther Protocol </h1>
             <h1 className=" md:text-[60px] font-extrabold  leading-tighter text-[38px] tracking-tighter mb-1" data-aos="zoom-y-out"> Foundation</h1>
             <div className="max-w-3xl mx-auto flex flex-col flex-wrap items-center ">
               <p className="text-[12px] max-w-[80vw]  text-gray-600 mb-3" >An independent organization dedicated to supporting the adoption and sustainability of Panther Protocol.</p>
