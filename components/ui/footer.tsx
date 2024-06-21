@@ -64,13 +64,13 @@ export default function Footer() {
                 <h6 className="text-[#FFFFFF]  font-bold mb-2">Connect</h6>
                 <ul className="text-sm">
                   <li className="mb-2">
-                    <a href="#0" className="text-[#FFFFFF] text-[12px] hover:text-gray-900 transition duration-150 ease-in-out">Resources</a>
+                    <a href="https://substack.com/@pantherprotocolfoundation" className="text-[#FFFFFF] text-[12px] hover:text-gray-900 transition duration-150 ease-in-out">Resources</a>
                   </li>
                   <li className="mb-2">
                     <a href="https://docs.google.com/forms/d/1b5RPrKte7gtqqvKtA04twjfj3pFVrQCS-xTKjW9la_w/edit" className="text-[#FFFFFF] text-[12px] hover:text-gray-900 transition duration-150 ease-in-out">Contact </a>
                   </li>
                   <li className="mb-2">
-                    <a href="#0" className="text-[#FFFFFF] text-[12px] hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
+                    <a href="https://substack.com/@pantherprotocolfoundation" className="text-[#FFFFFF] text-[12px] hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
                   </li>
 
                 </ul>
@@ -98,7 +98,7 @@ export default function Footer() {
                 <h6 className="text-[#FFFFFF]  font-bold mb-2">Guidelines</h6>
                 <ul className="text-sm">
                   <li className="mb-2">
-                    <a href="#0" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">FAQ</a>
+                    <a href="https://substack.com/@pantherprotocolfoundation" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">FAQ</a>
                   </li>
                   <li className="mb-2">
                     <a href="#0" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
