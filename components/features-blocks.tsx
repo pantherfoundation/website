@@ -1,12 +1,11 @@
 
 
 import Image from 'next/image'
-
 import ribm from "../public/images/rubber.png";
-
 import arrow from "../public/images/arrow.svg";
 import gearm from "../public/images/gearer.png";
 import glassm from "../public/images/glasser.png";
+import Link from 'next/link';
 
 export default function FeaturesBlocks() {
   return (
@@ -51,7 +50,7 @@ export default function FeaturesBlocks() {
               <Image src={gearm} width={250} height={300} alt={''} className='absolute  mt-[-6em]' />
 
               <p className="text-xl  absolute  font-bold text-left  w-[80vw] mb-1 ml-[1em] mt-[8em]">Build</p>
-              <p className="text-gray-600 text-xs  absolute top-[18em]  w-[80vw]  ml-[1.5em]  text-left">We contribute to the public good. The Panther Foundation wants to give back to the Web3 community. Check out our open-source code and API integration docs here. </p>
+              <p className="text-gray-600 text-xs  absolute top-[18em]  w-[80vw]  ml-[1.5em]  text-left">We contribute to the public good. The Panther Foundation wants to give back to the Web3 community. Check out our open-source code and API integration docs <Link className='underline text-blue-800' href="https://github.com/pantherfoundation">here.</Link> </p>
             </div>
 
             {/* 6th item */}
@@ -108,7 +107,7 @@ export default function FeaturesBlocks() {
                 <Image src={gearm} width={275} height={300} alt={''} className='absolute  mt-[-8em]' />
 
                 <h4 className="text-xl  text-left font-bold w-[100%] mb-1 mt-[10em]">Build</h4>
-                <p className="text-gray-600 text-xs  ">We contribute to the public good. The Panther Foundation wants to give back to the Web3 community. Check out our open-source code and API integration docs here. </p>
+                <p className="text-gray-600 text-xs  ">We contribute to the public good. The Panther Foundation wants to give back to the Web3 community. Check out our open-source code and API integration docs <Link className='underline text-blue-800' href="https://github.com/pantherfoundation">here.</Link> </p>
               </div>  </div> 
               <div className='flex flex-row justify-center'>
               {/* 6th item */}
