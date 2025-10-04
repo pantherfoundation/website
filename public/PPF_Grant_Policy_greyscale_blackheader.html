@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Panther Protocol Foundation — Policy on Grant‑Making & UI Maintenance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #0b0b0f;
+      --muted: #5b5b6e;
+      --purple: #444444;
+      --purple-600: #333333;
+      --purple-700: #222222;
+      --card: #ffffff;
+      --rule: #DDDDDD;
+      --radius: 16px;
+      --shadow: 0 10px 30px rgba(15, 15, 30, .06);
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.65; font-size: 16px; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 24px; }
+
+    .hero { background: #000000; border-bottom: 1px solid #444444; }
+    .hero-inner { padding: 56px 24px 40px; color: #ffffff; }
+    .kicker { color: #ffffff; letter-spacing: .12em; text-transform: uppercase; font-weight: 700; font-size: 12px; color: var(--purple-700); }
+    h1 { color: #ffffff; margin: 10px 0 8px; font-size: clamp(28px, 6vw, 46px); line-height: 1.12; font-weight: 800; letter-spacing: -0.02em; }
+    .subtitle { color: #dddddd; color: var(--muted); font-size: 17px; max-width: 760px; }
+    .meta { color: #cccccc; margin-top: 14px; color: var(--muted); font-size: 14px; }
+
+    .section { margin: 28px 0; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--card); box-shadow: var(--shadow); overflow: hidden; }
+    .section-header { display: flex; align-items: center; gap: 16px; padding: 22px 22px 0 22px; }
+    .section-num { flex: 0 0 auto; font-weight: 800; color: var(--purple-600); font-size: 14px; letter-spacing: .14em; text-transform: uppercase; }
+    .section-title { font-weight: 700; font-size: clamp(18px, 3.2vw, 22px); margin: 0; letter-spacing: -0.01em; }
+    .rule { height: 2px; background: linear-gradient(90deg, var(--purple) 0%, rgba(124,58,237,.0) 70%); margin: 16px 22px; border-radius: 2px; }
+    .section-body { padding: 0 22px 22px; background: #fff; }
+    .lede { margin: 0 0 10px; font-weight: 600; }
+    .callout { border-left: 3px solid var(--purple); padding: 10px 14px; background: #F5F5F5; border-radius: 8px; }
+    .list { margin: 8px 0 0 0; padding-left: 18px; }
+
+    table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+    th, td { text-align: left; padding: 10px 12px; vertical-align: top; }
+    thead th { font-size: 14px; color: var(--purple-700); border-bottom: 2px solid var(--purple); }
+    tbody td { border-bottom: 1px solid var(--rule); }
+
+    details { border: 1px solid var(--rule); border-radius: 12px; padding: 12px 16px; background: #fff; }
+    summary { cursor: pointer; font-weight: 600; color: var(--purple-700); }
+
+    footer { border-top: 1px solid var(--rule); margin-top: 48px; }
+    .foot-inner { padding: 24px; color: var(--muted); font-size: 14px; }
+
+    a { color: var(--purple-700); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    @media print { body { background: #fff; } .section { box-shadow: none; } a { text-decoration: none; color: #000; } .hero { background: #000000; border-bottom: 1px solid #444444; } .rule { background: #000; opacity: .1; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-inner">
+      <div class="kicker">Panther Protocol Foundation</div>
+      <h1>Policy on Grant‑Making & UI Maintenance</h1>
+      <p class="subtitle">Framework for funding open‑source contributions while maintaining a strictly non‑operational role in Panther Protocol.</p>
+      <div class="meta">Effective date: <strong>1 September 2025</strong> · Approved by: <strong>Panther Protocol Foundation Council</strong></div>
+    </div>
+  </header>
+
+  <main class="container" aria-label="Grant Policy content">
+
+    <section class="section" id="sec-01">
+      <div class="section-header"><div class="section-num">01</div><h2 class="section-title">Purpose</h2></div>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="section-body">
+        <p class="lede">This policy sets out how the Foundation engages with ecosystem developers, manages open‑source contributions, and defines its <strong>non‑operational</strong> role in Panther Protocol.</p>
+        <p>The Foundation exists to fund and support builders in the Panther ecosystem, not to operate the protocol itself. Maintaining a non‑operational role reinforces decentralisation, community values, and legal robustness, enabling lasting support for independent teams.</p>
+      </div>
+    </section>
+
+    <section class="section" id="sec-02">
+      <div class="section-header"><div class="section-num">02</div><h2 class="section-title">Grant‑Making Framework</h2></div>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="section-body">
+        <h3>2.1 Grant‑Only Development Support</h3>
+        <ul class="list">
+          <li>The Foundation will fund open‑source, non‑custodial development primarily <strong>through grants</strong>, not service contracts.</li>
+          <li>Grant recipients act as <strong>independent ecosystem contributors</strong>, not agents of the Foundation.</li>
+          <li>Grants may be issued only following <strong>DAO proposal approval</strong>.</li>
+        </ul>
+
+        <h3>2.2 Grant Agreement Requirements</h3>
+        <p>All grantees must:</p>
+        <ul class="list">
+          <li>Sign an agreement affirming <strong>independent status</strong>;</li>
+          <li>Confirm they will not deploy, host, or operate Panther smart contracts or user interfaces;</li>
+          <li>Use grant funds only for research, documentation, code contributions, or tooling;</li>
+          <li>Undergo KYC/KYB checks where appropriate;</li>
+          <li>Publish all outputs under a recognised open‑source licence (e.g., GPL, MIT, Apache‑2.0).</li>
+        </ul>
+
+        <h3>2.3 Prohibited Uses of Grant Funds</h3>
+        <ul class="list">
+          <li>Provide access to user‑facing tools that conceal the source, destination, or amount of virtual currency transactions;</li>
+          <li>Maintain live UIs that allow interaction with deployed Panther smart contracts;</li>
+          <li>Perform smart contract upgrades;</li>
+          <li>Facilitate custody, exchange, or transmission of assets.</li>
+        </ul>
+        <div class="callout"><strong>Why upgrades are prohibited:</strong> Performing upgrades to deployed smart contracts may constitute exercising control or influence over live infrastructure that facilitates regulated financial activity. Even if authorised by the DAO, upgrades executed by a grantee funded by the Foundation could be attributed to the Foundation, potentially triggering licensing obligations and undermining the Foundation’s non‑operational status.</div>
+        <p><strong>Distinction between upgrades and code maintenance:</strong> Maintaining the codebase in a non‑operational capacity (e.g., fixing bugs, writing tests, adding features, publishing improvements on GitHub) is permitted and encouraged. Such work is treated as software research and development, provided it is not deployed to live contracts. <em>Performing an upgrade</em>, by contrast, means applying changes to deployed smart contracts on‑chain, which may be viewed as operating or controlling the protocol. Grants must remain on the “development” side, leaving any decision to deploy code to independent third parties or the DAO.</p>
+
+        <h4>Practical interpretation for grantees</h4>
+        <table>
+          <thead><tr><th>Activity</th><th>Permitted under grants?</th><th>Rationale</th></tr></thead>
+          <tbody>
+            <tr><td>Build frontend UI code</td><td><strong>Yes</strong></td><td>Open‑source only; no hosting or promotion</td></tr>
+            <tr><td>Host or fund live Panther UI</td><td><strong>No</strong></td><td>Implies service delivery; VASP risks</td></tr>
+            <tr><td>Write mixer logic (e.g., z‑transfer)</td><td><strong>Yes</strong></td><td>Research/OSS only; not linked to deployments</td></tr>
+            <tr><td>Deploy or upgrade smart contracts</td><td><strong>No</strong></td><td>Suggests operational control</td></tr>
+            <tr><td>Write upgrade suggestions or specs</td><td><strong>Yes</strong></td><td>Informational; not directive or executed</td></tr>
+            <tr><td>Run or fund relayers or routing nodes</td><td><strong>No</strong></td><td>Facilitates financial intermediation</td></tr>
+            <tr><td>Build SDKs or developer tooling</td><td><strong>Yes</strong></td><td>Non‑custodial, non‑transactional infrastructure</td></tr>
+            <tr><td>Fund DAO governance tooling</td><td><strong>Yes (cautiously)</strong></td><td>Not if linked to execution or transaction flow</td></tr>
+          </tbody>
+        </table>
+
+        <h3>2.4 Steering Protocol</h3>
+        <p>For ongoing support grants, specific deliverables are determined in consultation with the DAO Council (or other designated DAO body) on a recurring basis. The Foundation may highlight DAO priorities and facilitate communication, but shall not issue binding instructions. Grantees remain independent and accountable through periodic reporting.</p>
+      </div>
+    </section>
+
+    <section class="section" id="sec-03">
+      <div class="section-header"><div class="section-num">03</div><h2 class="section-title">UI Maintenance & Deployment Policy</h2></div>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="section-body">
+        <h3>3.1 Hosting and Promotion</h3>
+        <ul class="list">
+          <li>The Foundation shall not host or maintain any live user interface for Panther Protocol.</li>
+          <li>Open‑source UI code may be published on public repositories, but the Foundation will not deploy or publish production frontends.</li>
+        </ul>
+        <h3>3.2 Contribution Limits</h3>
+        <p>Foundation‑funded developers may improve UI code but must not:</p>
+        <ul class="list">
+          <li>Publish live hosted versions;</li>
+          <li>Add features that enable custodial behaviour, exchange, or transaction routing;</li>
+          <li>Integrate relayer selection or wallet linking without DAO governance.</li>
+        </ul>
+        <h3>3.3 Disclaimer Requirement</h3>
+        <p>All Foundation‑published code repositories must include a disclaimer stating that:</p>
+        <ul class="list">
+          <li>The code is for educational and research purposes only;</li>
+          <li>The Foundation does not operate any live services;</li>
+          <li>Deployments are made independently by third parties, who are responsible for their own legal compliance.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="sec-04">
+      <div class="section-header"><div class="section-num">04</div><h2 class="section-title">Treasury Governance & Revenue Policy</h2></div>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="section-body">
+        <ul class="list">
+          <li>The Foundation shall not collect, distribute, or benefit from protocol fees, relayer revenue, or transaction volumes, without prior DAO approval.</li>
+          <li>Native token holdings are to be used solely for grants, research, and non‑operational ecosystem development.</li>
+          <li>The Foundation shall not vote on DAO proposals relating to upgrades, relayer operations, or financial mechanisms.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="sec-05">
+      <div class="section-header"><div class="section-num">05</div><h2 class="section-title">Public Transparency & Communications</h2></div>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="section-body">
+        <ul class="list">
+          <li>The Foundation will maintain a public transparency page detailing grant processes, funding recipients, and legal boundaries.</li>
+          <li>All official statements must reaffirm the Foundation’s non‑operational role and disclaim responsibility for deployments, custody, or compliance.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="sec-06">
+      <div class="section-header"><div class="section-num">06</div><h2 class="section-title">Enforcement & Review</h2></div>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="section-body">
+        <ul class="list">
+          <li>This policy shall be reviewed annually and updated as legal standards evolve.</li>
+          <li>Non‑compliance may result in termination of grants or relationships with contractors.</li>
+          <li>Legal counsel shall be consulted prior to any deviation or operational engagement.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="sec-07">
+      <div class="section-header"><div class="section-num">07</div><h2 class="section-title">Governance & Oversight</h2></div>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="section-body">
+        <ul class="list">
+          <li><strong>Internal Control System:</strong> Grant applications, approvals, and disbursements follow documented procedures with segregation of duties between decision‑making and payment functions.</li>
+          <li><strong>Audit & Review Rights:</strong> The Foundation may request documentation and review or audit grantees to confirm compliance with the Grant Agreement and this Policy.</li>
+          <li><strong>Impact & Learning Framework:</strong> Outcomes of funded projects are periodically reviewed for alignment, lessons, and reporting to stakeholders.</li>
+          <li><strong>Conflict‑of‑Interest Management:</strong> Anyone involved in grant‑making must disclose actual or potential conflicts; conflicted persons recuse from decisions.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="sec-08">
+      <div class="section-header"><div class="section-num">08</div><h2 class="section-title">Appendices</h2></div>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="section-body">
+        <details open>
+          <summary>Appendix A — Model Grant Agreement</summary>
+          <p><strong>Panther Protocol Foundation Grant Agreement</strong></p>
+          <p><em>Preamble:</em> The Foundation supports development of Panther Protocol through research and ecosystem grants, and is not an operator of the deployed protocol. Grantee undertakes work in an open‑source, non‑operational capacity.</p>
+          <ol>
+            <li><strong>Grant Award:</strong> Amount, purpose, and disbursement schedule (one‑off, milestone‑based, or periodic).</li>
+            <li><strong>Independent Relationship:</strong> Grantee is independent; no agency or partnership.</li>
+            <li><strong>Scope of Work:</strong> Deliverables published under approved OSS licence; avoid deployment/operation/hosting; avoid live contract interactions.</li>
+            <li><strong>Purpose & Limitations:</strong> Funds used solely for grant purpose; material changes require consent.</li>
+            <li><strong>Prohibited Activities:</strong> No UIs/relayers; no deploy/upgrade; no custody/exchange/transmission. <em>Why upgrades are prohibited</em> and <em>distinction vs. code maintenance</em> as described in §2.3.</li>
+            <li><strong>Reporting:</strong> Weekly updates; final report within one year or when funds are spent.</li>
+            <li><strong>Public Communication:</strong> Appropriate crediting; Foundation may disclose grant details; no implication Foundation operates Panther Protocol.</li>
+            <li><strong>Source Code & Licensing:</strong> Publish to public repo; GPL, MIT, Apache 2.0, BSD, or approved licence.</li>
+            <li><strong>Compliance:</strong> Comply with laws; complete KYC/KYB if requested; no sanctioned activity.</li>
+            <li><strong>Audit & Review:</strong> Foundation may request information, review/audit records related to the grant.</li>
+            <li><strong>Indemnification:</strong> Grantee holds Foundation harmless from claims arising from the grant.</li>
+            <li><strong>Assignment:</strong> No transfer without written consent.</li>
+            <li><strong>Termination:</strong> For breach/misrepresentation, failure to complete milestones, regulatory risk, or without cause on 30 days’ notice.</li>
+            <li><strong>Governing Law:</strong> Swiss law; courts of Zug have exclusive jurisdiction.</li>
+            <li><strong>Entire Agreement:</strong> Supersedes prior understandings. Signature blocks for Grantee & Foundation.</li>
+          </ol>
+        </details>
+
+        <details>
+          <summary>Appendix B — GitHub Repository Disclaimer Template</summary>
+<pre style="white-space:pre-wrap;border:1px solid var(--rule);border-radius:10px;padding:12px;background:#fff"># Disclaimer
+This code repository is maintained for open‑source, research, and educational purposes only.
+
+Panther Protocol Foundation does not operate, deploy, or control any live instances of the Panther Protocol.
+
+Use of this code in a deployed context may constitute the provision of regulated services under the laws of various jurisdictions. Any such use is performed entirely at the user's own risk.
+
+No warranty is provided. Users are responsible for their own legal and regulatory compliance.</pre>
+        </details>
+
+        <details>
+          <summary>Appendix C — DAO Proposal Template for Grants</summary>
+          <p><strong>Title:</strong> Grant Proposal: [Project Name]<br><strong>Author:</strong> [DAO Contributor Handle]<br><strong>Date:</strong> [Date of Submission]</p>
+          <h4>Summary</h4>
+          <p>Brief overview of the proposal, goals, and total funding requested.</p>
+          <h4>Motivation</h4>
+          <p>Explain how this work benefits the Panther ecosystem. Provide links to relevant GitHub repos or previous work.</p>
+          <h4>Deliverables (choose one structure)</h4>
+          <p><strong>Option A: Milestone‑Based Grant</strong></p>
+          <ul class="list">
+            <li>Milestone 1: [Objective & timeline]</li>
+            <li>Milestone 2: [Objective & timeline]</li>
+            <li>Final: [Objective & output form, e.g., code repo, documentation]</li>
+          </ul>
+          <p><strong>Option B: Ongoing Support Grant</strong></p>
+          <ul class="list">
+            <li>Monthly Work: [Description of ongoing tasks]</li>
+            <li>Evaluation: [Public reporting, GitHub activity, DAO feedback]</li>
+            <li>Duration: [e.g., 3 months, 6 months, renewable]</li>
+          </ul>
+          <h4>Budget</h4>
+          <p><strong>Option A (Milestone‑Based):</strong></p>
+          <ul class="list">
+            <li>Total: [Token amount or equivalent]</li>
+            <li>Disbursement schedule: [X]% upfront; [Y]% after Milestone 1; [Z]% upon final delivery</li>
+          </ul>
+          <p><strong>Option B (Ongoing Support):</strong></p>
+          <ul class="list">
+            <li>Monthly Amount: [Token amount/month]</li>
+            <li>Total Period: [e.g., 3 months @ 100,000 ZKP/month = 300,000 ZKP]</li>
+            <li>Disbursement: Monthly, subject to DAO confirmation or performance report</li>
+          </ul>
+          <h4>Legal Note</h4>
+          <ul class="list">
+            <li>Grantees act independently and not on behalf of the Foundation;</li>
+            <li>No deployment, custody, exchange, upgrades, or other regulated activity;</li>
+            <li>DAO‑related participation is in a personal/independent capacity; no implication of acting under Foundation authority.</li>
+          </ul>
+          <h4>Vote Options</h4>
+          <ul class="list">
+            <li>Yes: Approve grant</li>
+            <li>No: Reject grant</li>
+            <li>Revisions needed</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container foot-inner">
+      © Panther Protocol Foundation — Supporting decentralisation & ecosystem resilience
+    </div>
+  </footer>
+</body>
+</html>

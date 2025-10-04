@@ -63,9 +63,15 @@ export default function Footer() {
               <div className="ml-[20em]  sm:col-span-6 md:col-span-3 lg:col-span-2">
                 <h6 className="text-[#FFFFFF]  font-bold mb-2">Connect</h6>
                 <ul className="text-sm">
-                  <li className="mb-2">
-                    <a href="https://substack.com/@pantherprotocolfoundation" className="text-[#FFFFFF] text-[12px] hover:text-gray-900 transition duration-150 ease-in-out">Resources</a>
-                  </li>
+                 <li className="mb-2">
+  <a 
+    href="https://substack.com/@pantherprotocolfoundation" 
+    className="text-white block w-[200px] text-[12px] hover:text-gray-900 transition duration-150 ease-in-out"
+  >
+    UI Maintenance & Deployment Policy
+  </a>
+</li>
+
                   <li className="mb-2">
                     <a href="https://docs.google.com/forms/d/1b5RPrKte7gtqqvKtA04twjfj3pFVrQCS-xTKjW9la_w/edit" className="text-[#FFFFFF] text-[12px] hover:text-gray-900 transition duration-150 ease-in-out">Contact </a>
                   </li>
@@ -98,13 +104,19 @@ export default function Footer() {
                 <h6 className="text-[#FFFFFF]  font-bold mb-2">Guidelines</h6>
                 <ul className="text-sm">
                   <li className="mb-2">
-                    <a href="https://substack.com/@pantherprotocolfoundation" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">FAQ</a>
+                    <a href="https://substack.com/@pantherprotocolfoundation" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">Governance Neutrality Policy</a>
                   </li>
                   <li className="mb-2">
-                    <a href="#0" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
+                    <a href="#0" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">Grant Framework</a>
                   </li>
                   <li className="mb-2">
-                    <a href="#0" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">Trademark policy</a>
+                    <a href="/PPF_DAO_Governance_Participation_Disclaimer_greyscale_blackheader.html" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">DAO Governance Disclaimer</a>
+                  </li>
+                    <li className="mb-2">
+                    <a href="/PPF_Governance_Neutrality_Policy_greyscale_blackheader.html" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">Policies</a>
+                  </li>
+                    <li className="mb-2">
+                    <a href="/PPF_Grant_Policy_greyscale_blackheader.html" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">Grant Policy</a>
                   </li>
 
                 </ul>
