@@ -46,9 +46,7 @@ export default function Header() {
               <li>
               <Link href="https://snapshot.org/#/pantherprotocol.eth" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center text-[13px] transition duration-150 ease-in-out">Governance</Link>
               </li>
-              <li>
-                <Link href="https://substack.com/@pantherprotocolfoundation" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center text-[13px] transition duration-150 ease-in-out">Resources</Link>
-              </li>
+       
               <li>
               <Link href="https://docs.google.com/forms/d/1b5RPrKte7gtqqvKtA04twjfj3pFVrQCS-xTKjW9la_w/edit" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center text-[13px] transition duration-150 ease-in-out">Contact Form</Link>
               </li>
