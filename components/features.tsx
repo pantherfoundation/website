@@ -44,7 +44,7 @@ export default function Features() {
             <div className="max-w-xl  w-[70vw] mt-[3em]    mx-auto  lg:col-span-6 " data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-3">
                 <div className='flex absolute top-[5em] w-[9em] left-[1em]   ml-[.3em] mt-[2em] '><Image src={arrow} width={15} height={30} alt={''} className='mr-[.41em] mt-[-.7161em] ' /> <div className="h4 text-white absolute left-[2em] mt-[-1em] text-[16px] ">01-About</div>  </div>
-                  <p className="text-[14px]  absolute top-[8em] font-bold left-[1.3em] mb-[13em]   mt-[2em]  text-white z-[50] ">We believe that privacy-preserving technologies are essential for Web3 to scale. </p>
+                  <p className="text-[14px]  absolute top-[8em] font-bold left-[1.3em] mb-[13em]   mt-[2em]  text-white z-[50] ">We believe that enhanced on-chain data security is essential for Web3 to scale. </p>
                   <p className="text-[13px] absolute top-[14em] left-[1.3em] mt-[3.8em]  text-white z-[50] mb-[10em]">As such, we care about Panther Protocol, and stand for a more inclusive and decentralized way of how we interact and transact with each other. We act to protect and grow Panther Protocol and its community through transparency, open communication and direct engagement.</p>
                 </div></div>
              </div>
@@ -158,7 +158,7 @@ export default function Features() {
               <div className="max-w-[45em] w-[21vw]  left-[47em] absolute   md:col-span-7 lg:col-span-6 mt-[16em]" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-3">
 
-                  <p className="text-[18px] w-[28em] nonMobile font-bold text-white z-[50] mb-5 ">We believe that privacy-preserving technologies are essential for Web3 to scale. </p>
+                  <p className="text-[18px] w-[28em] nonMobile font-bold text-white z-[50] mb-5 ">We believe that enhanced on-chain data security is essential for Web3 to scale. </p>
                   <p className="text-[13px] w-[36em]  nonMobile text-white z-[50] mb-[10em]">As such, we care about Panther Protocol, and stand for a more inclusive and decentralized way of how we interact and transact with each other. We act to protect and grow Panther Protocol and its community through transparency, open communication and direct engagement.</p>
                 </div>
                 {/* Tabs buttons */}
