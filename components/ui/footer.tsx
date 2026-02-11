@@ -48,6 +48,7 @@ export default function Footer() {
             >
               Blog
             </a>
+          </li>
             <li className="mb-2">
             <a
               href="/privacypolicy.html"
