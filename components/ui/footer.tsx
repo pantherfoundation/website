@@ -49,22 +49,6 @@ export default function Footer() {
               Blog
             </a>
           </li>
-            <li className="mb-2">
-            <a
-              href="/privacypolicy.html"
-              className="text-[#FFFFFF] text-[12px] hover:text-gray-300 transition duration-150 ease-in-out"
-            >
-              Privacy Notice
-            </a>
-          </li>
-          <li className="mb-2">
-            <a
-              href="/tou.html"
-              className="text-[#FFFFFF] text-[12px] hover:text-gray-300 transition duration-150 ease-in-out"
-            >
-              Terms of Use
-            </a>
-          </li>
         </ul>
       </div>
 
@@ -93,7 +77,7 @@ export default function Footer() {
 
       {/* 4th block */}
       <div className="sm:col-span-12 md:col-span-6 lg:col-span-4">
-        <h6 className="text-[#FFFFFF] font-bold mb-2">Guidelines</h6>
+        <h6 className="text-[#FFFFFF] font-bold mb-2">Guidelines &amp; Legal</h6>
         <ul className="text-sm">
           <li className="mb-2">
             <a href="/PPF_Governance_Neutrality_Policy_greyscale_blackheader.html"
@@ -109,6 +93,16 @@ export default function Footer() {
           <li className="mb-2">
             <a href="/PPF_DAO_Governance_Participation_Disclaimer_greyscale_blackheader.html" className="text-[#FFFFFF] text-[12px] hover:text-gray-300 transition duration-150 ease-in-out">
               DAO Governance Disclaimer
+            </a>
+          </li>
+          <li className="mb-2">
+            <a href="/privacypolicy.html" className="text-[#FFFFFF] text-[12px] hover:text-gray-300 transition duration-150 ease-in-out">
+              Privacy Notice
+            </a>
+          </li>
+          <li className="mb-2">
+            <a href="/tou.html" className="text-[#FFFFFF] text-[12px] hover:text-gray-300 transition duration-150 ease-in-out">
+              Terms of Use
             </a>
           </li>
         </ul>
@@ -159,12 +153,6 @@ export default function Footer() {
                   <li className="mb-2">
                     <a href="https://blog.pantherprotocol.io/" className="text-[#FFFFFF] text-[12px] hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
                   </li>
-                  <li className="mb-2">
-                    <a href="/privacypolicy.html" className="text-[#FFFFFF] text-[12px] hover:text-gray-300 transition duration-150 ease-in-out">Privacy Notice</a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="/tou.html" className="text-[#FFFFFF] text-[12px] hover:text-gray-300 transition duration-150 ease-in-out">Terms of Use</a>
-                  </li>
 
                 </ul>
               </div>
@@ -186,7 +174,7 @@ export default function Footer() {
 
               {/* 4th block */}
               <div className="ml-[20em] w-[20em]">
-                <h6 className="text-[#FFFFFF]  font-bold mb-2">Guidelines</h6>
+                <h6 className="text-[#FFFFFF]  font-bold mb-2">Guidelines &amp; Legal</h6>
                 <ul className="text-sm">
                   <li className="mb-2">
                     <a href="/PPF_Governance_Neutrality_Policy_greyscale_blackheader.html" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">Governance Neutrality Policy</a>
@@ -196,6 +184,12 @@ export default function Footer() {
                   </li>
                   <li className="mb-2">
                     <a href="/PPF_DAO_Governance_Participation_Disclaimer_greyscale_blackheader.html" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">DAO Governance Disclaimer</a>
+                  </li>
+                  <li className="mb-2">
+                    <a href="/privacypolicy.html" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">Privacy Notice</a>
+                  </li>
+                  <li className="mb-2">
+                    <a href="/tou.html" className="text-[#FFFFFF] text-[12px] w-[30em] hover:text-gray-900 transition duration-150 ease-in-out">Terms of Use</a>
                   </li>
                 </ul>
               </div>
