@@ -10,7 +10,7 @@ import Link from 'next/link';
 export default function FeaturesBlocks() {
   return (
 
-    <><section className="relative h-[150em] mobile">
+    <><section className="relative h-[150em] mobile overflow-hidden">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute h-[100em] inset-0 top-1/2 md:mt-20 lg:mt-0  pointer-events-none" aria-hidden="true"></div>
