@@ -32,7 +32,7 @@ export default function MobileMenu() {
   })
 
   return (
-    <div className="flex md:hidden">
+    <div className="mobile flex">
       {/* Hamburger button */}
       <button
         ref={trigger}
