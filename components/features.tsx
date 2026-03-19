@@ -153,7 +153,7 @@ export default function Features() {
 
             {/* Section content */}
             <div className="md:grid md:grid-cols-12 md:gap-6 ">
-   <div className='flex   nonMobile left-[47em] absolute mt-[13em]  '><Image src={arrow} width={15} height={15} alt={''} className='mr-[1em]  ' /> <h1 className="h4  text-[18px] text-white ">01-About</h1>  </div>15
+   <div className='flex   nonMobile left-[47em] absolute mt-[13em]  '><Image src={arrow} width={15} height={15} alt={''} className='mr-[1em]  ' /> <h1 className="h4  text-[18px] text-white ">01-About</h1>  </div>
               {/* Content */}
               <div className="max-w-[45em] w-[21vw]  left-[47em] absolute   md:col-span-7 lg:col-span-6 mt-[16em]" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-3">

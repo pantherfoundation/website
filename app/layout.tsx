@@ -15,8 +15,7 @@ const inter = Inter({
 export const metadata = {
   title: 'Panther Protocol Foundation',
   description: 'Panther Protocol Foundation',
- favicon: '/favicon.ico'
-  
+  icons: { icon: '/favicon.ico' },
 }
 
 export default function RootLayout({
