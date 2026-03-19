@@ -9,7 +9,7 @@ import Link from 'next/link';
 export default function Footer() {
   return (
 
-    <><footer className='mobile '>
+    <><footer className='mobile relative z-10'>
      <div className="max-w-[100vw] bg-[#1E1E1E] mx-auto px-4 sm:px-6">
   <div className="max-w-6xl bg-[#1E1E1E] mx-auto px-4 sm:px-6">
 
